@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether App | CS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!--Main Card-->
+    <div class="card"> 
+        <!--Serach Box-->
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" id="search-box">
+            <button id="search-button">🔍</button>
+        </div>
+        <!--Tampreture and Weather-->
+        <div class="show-off">
+            <h2 id="weather-icon"><img id="src" src="Assets/Clear.png"></h2>
+            <p id="discp">Clear Sky</p>
+            <h1 id="tamp">28°C</h1>
+            <h2 id="city">Indore</h2>
+        </div>
+        <!--Wind Speed and Humidity-->
+        <div class="bottum-part">
+            <div class="humidity">
+                <p id="humidity-icon"><img id="icon" src="Assets/humidity-icon.png"></p>
+                <p id="humidity-persentage">40%</p>
+                <p id="humidity-text">Humidity</p>
+            </div>
+            <div class="wind">
+                <p id="wind-icon"><img id="icon" src="Assets/Wind-Icon.png"></p>
+                <p id="wind-speed">15 km/h</p> 
+                <p id="wind-text">Wind Speed</p>
+            </div>
+            <p id="time"></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
